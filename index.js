@@ -6,8 +6,8 @@ function randomNoGeneratorIngrid(min, max) {
   return Math.random() * (max - min) + min;
 }
 
-const magicString = () => {
+function magicString() {
   return 'Hello World';
-};
+}
 
 module.exports = { randomNoGeneratorIngrid, magicString };
