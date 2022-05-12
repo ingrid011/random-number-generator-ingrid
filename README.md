@@ -9,6 +9,12 @@ this is a random generator
 
 ## Usage
 ```js
-const randomNoGeneratorIngrid = require("random-number-generator-ingrid"); 
-console.log(randomNoGeneratorIngrid(5,10))
+const magic = require("random-number-generator-ingrid"); 
+console.log(magic.randomNoGeneratorIngrid(5,10))
+```
+
+Or, for viewing hello world text only 
+```js
+const magic = require("random-number-generator-ingrid"); 
+console.log(magic.magicString())
 ```
